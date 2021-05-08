@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning | Academic</title>
+    <link>/tag/deep-learning/</link>
+      <atom:link href="/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Deep Learning</title>
+      <link>/tag/deep-learning/</link>
+    </image>
+    
+    <item>
+      <title>Kitchen Dash</title>
+      <link>/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/example/</guid>
+      <description>&lt;h2 id=&#34;project-description&#34;&gt;Project Description&lt;/h2&gt;
+&lt;p&gt;Kitchen Dash is in its core, intended to be used to as a meal planning app but it is much more than that. Users are able upload their recipes and view other users&#39; recipes. This app was made in 24 hours for a hackathon so it is very unpolished and has a lot of missing features.&lt;/p&gt;
+&lt;h2 id=&#34;accomplishments&#34;&gt;Accomplishments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Used the React-Native framework to use a single make the app run on both iOS and Android using a single codebase.&lt;/li&gt;
+&lt;li&gt;Used the Google Firebase API to implement realtime database functionality for the app.&lt;/li&gt;
+&lt;li&gt;Practiced agile scrum practices and incorporated a &amp;ldquo;what did I do today?&amp;rdquo; session to ensure team members stay on top of tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;challenges&#34;&gt;Challenges&lt;/h2&gt;
+&lt;p&gt;The main challenge we faced while developing Kitchen-Dash was due to us using few system specific frontend APIs to make styling easier but this ended up backfiring when the app showed visual glitches on one operating system while behaving completely fine on the other. To remedy this problem, we ended up refactoring the code to remove all calls to the API in question and this took a major chunk of the 24 hours we had for creating the app. However, we did learn a few things like to always read documentation for whatever API we are planning to use to ensure it works on almost all devices.&lt;/p&gt;
+&lt;h2 id=&#34;tools-used&#34;&gt;Tools Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-react  pr-1 fa-fw&#34;&gt;&lt;/i&gt; React-Native&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-cloud  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Firebase&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;to-do&#34;&gt;To-Do&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User authentication ✅&lt;/li&gt;
+&lt;li&gt;App layout ✅&lt;/li&gt;
+&lt;li&gt;Homepage redesign ⬜&lt;/li&gt;
+&lt;li&gt;Recipe querying ⬜&lt;/li&gt;
+&lt;li&gt;Add recipe function ⬜&lt;/li&gt;
+&lt;li&gt;Weakly meal planner ⬜&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-app-layout-created-by-zeyu-li&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;App layout created by Zeyu Li&#34; srcset=&#34;
+               /project/example/plan_hu217196188ae580a922e6d841151d09ab_459111_0824e76317c2fdc21bca40b5e28c3874.png 400w,
+               /project/example/plan_hu217196188ae580a922e6d841151d09ab_459111_137a925ff9ba2a2258a97c3534e75c1d.png 760w,
+               /project/example/plan_hu217196188ae580a922e6d841151d09ab_459111_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;/project/example/plan_hu217196188ae580a922e6d841151d09ab_459111_0824e76317c2fdc21bca40b5e28c3874.png&#34;
+               width=&#34;760&#34;
+               height=&#34;503&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      App layout created by Zeyu Li
+    &lt;/figcaption&gt;&lt;/figure&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
