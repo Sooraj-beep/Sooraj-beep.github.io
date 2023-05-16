@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://Sooraj-beep.github.io/sitemap.xml
