@@ -22,7 +22,7 @@ organizations:
     url: https://www.ualberta.ca
 
 # Short bio (displayed in user profile at end of posts)
-bio: Software Development Engineer. 
+bio: I like building things.
 
 # Interests to show in About widget
 interests:
