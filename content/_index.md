@@ -91,6 +91,42 @@ sections:
               * Engineered API endpoints for handling CRUD requests saving 36,000 hours and $1.6 million annually.
               * Implemented authentication, authorization, and input validation to ensure app security and robustness.
               * Collaborated with colleagues to ensure client requirements were met, assuming full ownership of the project from initial design to successful implementation.
+
+        - title: Cmputer Science Co-op
+          company: Interface Fluidics Limited
+          company_url: 'https://www.interfacefluidics.com/'
+          location: Edmonton, Alberta
+          date_start: '2021-08-01'
+          date_end: '2022-04-01'
+          description: |2- 
+              * Refactored GraphQL queries resulting in 7500% faster data access time.
+              * Revised existing image analysis module which decreased task completion time by 500% and mouse clicks by half.
+              * Created an algorithm in python to numerically sort (using regex) and stack images from the database.
+              * Developed an algorithm to convert images into video using Python and FFmpeg.
+
+        - title: Full-Stack Software Developer
+          company: Sparrowfi
+          company_url: 'https://www.sparrowfi.com/'
+          location: Remote
+          date_start: '2021-05-01'
+          date_end: '2021-06-01'
+          description: |2- 
+              * Wrote backend code that handled external HTTP requests from third party endpoints.
+              * Commended for clear communication and unparalleled willingness to learn.
+              * Gained experience in AWS Lambda, DynamoDB, GraphQL, and styling in CSS using Bulma.io.
+
+        - title: Teaching Assistant
+          company: Universisty of Alberta - CMPUT 272 (Formal Systems and Logic in Computing Science) 
+          company_url: 'https://www.ualberta.ca/index.html'
+          company_logo: ualberta
+          location: Edmonton, Alberta
+          date_start: '2021-01-01'
+          date_end: '2021-04-01'
+          description: |2- 
+              * Assisted professor in setting the difficulty of the course, grading student assignments, and replying to queries.
+              * Gave 200 students detailed midterm feedback which contributed to 10% higher average marks in final exam.
+              * Learned how to effectively manage time between a full course load and working a part-time job.
+
     design:
       columns: '2'
   - block: accomplishments
