@@ -156,7 +156,7 @@ sections:
           date_start: '2019-11-23'
           organization: Microsoft
           title: Microsoft Azure - Web Development
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+          url: ''
 
 
         # - certificate_url: https://www.datacamp.com
