@@ -214,6 +214,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
+        - name: Discord Bots
+          tag: Discord Bots
         - name: Data Visualization
           tag: Data Visualization
         - name: Other
