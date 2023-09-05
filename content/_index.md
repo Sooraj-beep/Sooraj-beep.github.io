@@ -87,10 +87,10 @@ sections:
           date_start: '2022-05-01'
           date_end: '2022-08-01'
           description: |2- 
-              * Created a website allowing clients to define and manage customer cohorts, facilitating personalized recommendations.
-              * Engineered API endpoints for handling CRUD requests saving 36,000 hours and $1.6 million annually.
-              * Implemented authentication, authorization, and input validation to ensure app security and robustness.
-              * Collaborated with colleagues to ensure client requirements were met, assuming full ownership of the project from initial design to successful implementation.
+              * Developed a service that allows clients to define customer cohorts used for product recommendations.
+              * Wrote API specifications using Smithy and Java and deployed them using AWS Lambda and API Gateway.
+              * Designed a dashboard using React and TypeScript for external clients to interact with API endpoints.
+              * Implemented authentication and input validation to ensure app robustness and security.
 
         - title: Cmputer Science Co-op
           company: Interface Fluidics Limited
@@ -99,9 +99,9 @@ sections:
           date_start: '2021-08-01'
           date_end: '2022-04-01'
           description: |2- 
-              * Refactored GraphQL queries resulting in 7500% faster data access time.
-              * Revised existing image analysis module which decreased task completion time by 500% and mouse clicks by half.
-              * Created an algorithm in python to numerically sort (using regex) and stack images from the database.
+              * Refactored GraphQL queries resulting in 7500% faster data access time using virtualization and pagination.
+              * Updated image analysis UI which decreased task completion time by 500% and mouse clicks by half.
+              * Created an algorithm in Python to numerically sort (using regex) and stack images from the database.
               * Developed an algorithm to convert images into video using Python and FFmpeg.
 
         - title: Full-Stack Software Developer
