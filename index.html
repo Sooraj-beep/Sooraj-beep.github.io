@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sooraj Arakkal — Software Engineer</title>
+  <meta name="description" content="Sooraj Arakkal is a software engineer and Computing Science graduate from the University of Alberta.">
+  <meta property="og:title" content="Sooraj Arakkal — Software Engineer">
+  <meta property="og:description" content="Software engineer. I like building things.">
+  <meta property="og:url" content="https://sooraj-beep.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">sooraj.arakkal</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#writing">Writing</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/resume.pdf">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ Hero / About ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">software engineer</span>
+      <h1>I like building things.</h1>
+      <p>
+        I'm Sooraj Arakkal, a Computing Science graduate from the
+        <a href="https://www.ualberta.ca">University of Alberta</a> (BSc, Specialization
+        in Software Practice). I've shipped services at Amazon, sped up data-heavy UIs,
+        and run community tools used by thousands of students. I care about software
+        that's simple, fast, and useful.
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/Sooraj-beep">GitHub</a>
+        <a href="https://www.linkedin.com/in/sooraj-arakkal/">LinkedIn</a>
+        <a href="mailto:soorajarakkal@gmail.com">Email</a>
+        <a href="assets/resume.pdf">Resume ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Experience ============ -->
+  <section id="experience">
+    <div class="wrap">
+      <span class="eyebrow">experience</span>
+      <h2>Where I've worked</h2>
+      <ol class="timeline">
+        <li>
+          <span class="when">Jan 2023 — Apr 2023 · Edmonton, AB</span>
+          <h3>Teaching Assistant, CMPUT 101</h3>
+          <p class="org"><a href="https://www.ualberta.ca">University of Alberta</a></p>
+          <ul>
+            <li>Led lab sessions presenting core Computing Science topics.</li>
+            <li>Graded midterms, lab work, and assignments; answered student questions.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="when">May 2022 — Aug 2022 · Vancouver, BC</span>
+          <h3>Software Development Engineer Intern</h3>
+          <p class="org"><a href="https://www.amazon.ca">Amazon</a></p>
+          <ul>
+            <li>Built a service letting clients define customer cohorts for product recommendations.</li>
+            <li>Wrote API specs in Smithy and Java; deployed with AWS Lambda and API Gateway.</li>
+            <li>Designed a React + TypeScript dashboard for external clients to work with the API.</li>
+            <li>Added authentication and input validation for robustness and security.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="when">Aug 2021 — Apr 2022 · Edmonton, AB</span>
+          <h3>Computer Science Co-op</h3>
+          <p class="org"><a href="https://www.interfacefluidics.com/">Interface Fluidics</a></p>
+          <ul>
+            <li>Refactored GraphQL queries for 7500% faster data access using virtualization and pagination.</li>
+            <li>Reworked the image-analysis UI, cutting task completion time 5x and mouse clicks in half.</li>
+            <li>Built Python tooling to sort, stack, and convert image sets into video with FFmpeg.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="when">May 2021 — Jun 2021 · Remote</span>
+          <h3>Full-Stack Software Developer</h3>
+          <p class="org"><a href="https://www.sparrowfi.com/">Sparrowfi</a></p>
+          <ul>
+            <li>Wrote backend code handling external HTTP requests from third-party endpoints.</li>
+            <li>Worked with AWS Lambda, DynamoDB, GraphQL, and Bulma.io.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="when">Jan 2021 — Apr 2021 · Edmonton, AB</span>
+          <h3>Teaching Assistant, CMPUT 272</h3>
+          <p class="org"><a href="https://www.ualberta.ca">University of Alberta</a></p>
+          <ul>
+            <li>Helped set course difficulty, graded assignments, and answered queries.</li>
+            <li>Gave 200 students detailed midterm feedback, contributing to a 10% higher final-exam average.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ Skills ============ -->
+  <section id="skills">
+    <div class="wrap">
+      <span class="eyebrow">toolbox</span>
+      <h2>Skills</h2>
+      <div class="chips">
+        <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Java</span>
+        <span>C/C++</span><span>R</span><span>React</span><span>d3.js</span>
+        <span>Material UI</span><span>Jest</span><span>Cypress</span>
+        <span>AWS</span><span>GCP</span><span>GraphQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Projects ============ -->
+  <section id="projects">
+    <div class="wrap wrap--wide">
+      <span class="eyebrow">projects</span>
+      <h2>Things I've built</h2>
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/Sooraj-beep/sherp2.0">
+          <h3>Sherp2.0</h3>
+          <p>A community-run Discord chatbot that answers CS questions for students at the University of Alberta.</p>
+          <span class="tags">python · discord · aws ec2 · github actions</span>
+        </a>
+        <a class="project-card" href="https://cmput401.ca/projects/958b9d11-9e39-4ffa-be10-94cf273a45cc">
+          <h3>Vocabulary Explorer</h3>
+          <p>A website for visually exploring the Cree language through interactive word graphs.</p>
+          <span class="tags">data viz · d3.js · web</span>
+        </a>
+        <a class="project-card" href="https://github.com/Sooraj-beep/EpicGamesFreeGameNotifierBot">
+          <h3>Epic Games Notifier</h3>
+          <p>A Discord bot that announces the free games Epic Games gives away each week.</p>
+          <span class="tags">python · discord · automation</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Writing ============ -->
+  <section id="writing">
+    <div class="wrap">
+      <span class="eyebrow">writing</span>
+      <h2>Posts</h2>
+      <ul class="post-list">
+        <li>
+          <span class="date">2023-09-04</span>
+          <a href="blog/sherp-devops.html">The Simple DevOps Infrastructure behind Sherp2.0</a>
+        </li>
+      </ul>
+      <p style="margin-top:1.5rem"><a class="back-link" href="blog/index.html">All posts →</a></p>
+    </div>
+  </section>
+
+  <!-- ============ Contact ============ -->
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <span class="eyebrow">contact</span>
+      <h2>Get in touch</h2>
+      <p>
+        Want to talk about work, a project, or an idea? Reach out — I read everything.
+      </p>
+      <div class="hero-links">
+        <a href="mailto:soorajarakkal@gmail.com">soorajarakkal@gmail.com</a>
+        <a href="https://www.linkedin.com/in/sooraj-arakkal/">LinkedIn</a>
+        <a href="https://github.com/Sooraj-beep">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="year"></span> Sooraj Arakkal</span>
+    <span>built by hand · hosted on github pages</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
